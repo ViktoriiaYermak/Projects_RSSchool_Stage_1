@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal-style.css">
+    <link rel="icon" type="image/x-ico" href="./assets/icon/favicon.ico">
+    <title>Coffee-House</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div id="header-menu" class="header-menu">
+                <a href="../Coffee-House/">
+                    <img class="header-logo" src="./assets/img/logo.png" alt="Logo Coffee-House">
+                </a>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#favorite-coffee">Favorite coffee</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#mobile-app">Mobile app</a></li>
+                        <li><a href="#contact-us">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-menu-item">
+                    <a href="../Coffee-House/d-menu">
+                        Menu
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M14.167 9.76667V11.6667C14.167 14.8883 11.5553 17.5 8.33366 17.5C5.112 17.5 2.50033 14.8883 2.50033 11.6667V9.76667C2.50033 9.4353 2.76896 9.16667 3.10033 9.16667H13.567C13.8984 9.16667 14.167 9.4353 14.167 9.76667Z" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.0003 7.50008C10.0003 6.66675 10.5956 5.83341 11.786 5.83341V5.83341C13.101 5.83341 14.167 4.76743 14.167 3.45246V2.91675" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.66634 7.5V7.08333C6.66634 5.70262 7.78563 4.58333 9.16634 4.58333V4.58333C10.0868 4.58333 10.833 3.83714 10.833 2.91667V2.5" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.333 9.16675H15.4163C16.5669 9.16675 17.4997 10.0995 17.4997 11.2501C17.4997 12.4007 16.5669 13.3334 15.4163 13.3334H14.1663" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <button id="burger" class="burger-menu-btn-open">
+                    <span class="btn-line-top"></span>
+                    <span class="btn-line-bottom"></span>
+                </button>
+            </div>
+            <div class="burger-menu-list">
+                <nav>
+                    <ul class="burger-menu-link">
+                        <li><a href="#favorite-coffee">Favorite coffee</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#mobile-app">Mobile app</a></li>
+                        <li><a href="#contact-us">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-burger-menu-item">
+                    <a href="../Coffee-House/d-menu">
+                        Menu
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                            <path d="M28.8333 18.9333V25C28.8333 30.5228 24.3561 35 18.8332 35H15.4999C9.97707 35 5.49992 30.5228 5.49992 25V18.9333C5.49992 18.602 5.76855 18.3333 6.09992 18.3333H28.2333C28.5646 18.3333 28.8333 18.602 28.8333 18.9333Z" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.4999 15C20.4999 13.3334 21.6904 11.6667 24.0713 11.6667C24.5919 11.6667 25.2136 11.6667 25.8333 11.6667C27.4901 11.6667 28.8333 10.3236 28.8333 8.66671V5.83337" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.8334 15V12.1667C13.8334 10.5098 15.1766 9.16667 16.8334 9.16667H20.1667C21.2713 9.16667 22.1667 8.27124 22.1667 7.16667V5" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M27.1667 18.3334H31.3334C33.6346 18.3334 35.5001 20.1989 35.5001 22.5C35.5001 24.8012 33.6346 26.6667 31.3334 26.6667H28.8334" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container-enjoy">
+                <div class="background-video">
+                    <video class="container-enjoy-video" autoplay muted loop playsinline>
+                        <source src="../Coffee-House/assets/video/video(2160p).mp4">
+                    </video>
+                </div>
+                <div class="enjoy-hero">
+                    <h1><em>Enjoy</em> premium coffee at our charming cafe</h1>
+                    <p>With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+                    <a href="../Coffee-House/d-menu">
+                        <span class="menu-text-hover">Menu</span>
+                        <svg class="menu-cup-hover" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M14.166 9.76667V11.6667C14.166 14.8883 11.5543 17.5 8.33268 17.5C5.11102 17.5 2.49935 14.8883 2.49935 11.6667V9.76667C2.49935 9.4353 2.76798 9.16667 3.09935 9.16667H13.566C13.8974 9.16667 14.166 9.4353 14.166 9.76667Z" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.99935 7.49996C9.99935 6.66663 10.5946 5.83329 11.7851 5.83329V5.83329C13.1 5.83329 14.166 4.7673 14.166 3.45234V2.91663" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.66732 7.5V7.08333C6.66732 5.70262 7.78661 4.58333 9.16732 4.58333V4.58333C10.0878 4.58333 10.834 3.83714 10.834 2.91667V2.5" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.334 9.16663H15.4173C16.5679 9.16663 17.5007 10.0994 17.5007 11.25C17.5007 12.4006 16.5679 13.3333 15.4173 13.3333H14.1673" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+            <section id="favorite-coffee" class="container-favorite-coffee">
+                <h2>Choose your <em>favorite</em> coffee</h2>
+                <div class="favorite-coffee-slider-btn">
+                    <button class="slider-btn left-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M18.5 12H6M6 12L12 6M6 12L12 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="favorite-slider-container">
+                        <div class="favorite-slider-container-line">
+                            <div class="favorite-slider" id="slide-1">
+                                <img src="./assets/img/home-favorite-slider-1.png" alt="Slide-1 Favorite coffee S&rsquo;mores Frappuccino" width="480" height="480">
+                                <div class="favorite-slider-text">
+                                    <p class="slider-text">S&rsquo;mores Frappuccino</p>
+                                    <p class="slider-text1">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                                    <p class="slider-text">$5.50</p>
+                                </div>
+                            </div>
+                            <div class="favorite-slider" id="slide-2">
+                                <img src="./assets/img/home-favorite-slider-2.png" alt="Slide-1 Favorite coffee S&rsquo;mores Frappuccino" width="480" height="480">
+                                <div class="favorite-slider-text">
+                                    <p class="slider-text">Caramel Macchiato</p>
+                                    <p class="slider-text1">Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under whipped thick foam.</p>
+                                    <p class="slider-text">$5.00</p>
+                                </div>
+                            </div>
+                            <div class="favorite-slider" id="slide-3">
+                                <img src="./assets/img/home-favorite-slider-3.png" alt="Slide-1 Favorite coffee S&rsquo;mores Frappuccino" width="480" height="480">
+                                <div class="favorite-slider-text">
+                                    <p class="slider-text">Ice coffee</p>
+                                    <p class="slider-text1">A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.</p>
+                                    <p class="slider-text">$4.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-btn right-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="favorite-controls">
+                    <div class="control1 control-btn-1 control-btn"></div>
+                    <div class="control2 control-btn-2 control-btn"></div>
+                    <div class="control2 control-btn-3 control-btn"></div>
+                </div>
+            </section>
+            <section id="about" class="container-about">
+                <h2>Resource is <em>the perfect and cozy place</em> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
+                <div class="about-photo-gallery">
+                    <div class="image-container">
+                        <img src="./assets/img/home-about-1.jpg" alt="Girl drinking coffee" width="660" height="590" class="about-photo-galery-1">
+                    </div>
+                    <div class="image-container1">
+                        <img src="./assets/img/home-about-3.jpg" alt="Man working in a coffee shop" width="660" height="430" class="about-photo-galery-2">
+                    </div>
+                    <div class="image-container1">
+                        <img src="./assets/img/home-about-2.jpg" alt="Serving a table in a coffee shop" width="660" height="430" class="about-photo-galery-2">
+                    </div>
+                    <div class="image-container photo-4">
+                        <img src="./assets/img/home-about-4.jpg" alt="Young couple drinking coffee" width="660" height="590" class="about-photo-galery-1">
+                    </div>
+                </div>
+            </section>
+            <section id="mobile-app" class="container-mobile-app">
+                <div class="mobile-app-ofer">
+                    <h2><em>Download</em> our apps to start ordering</h2>
+                    <p class="mobile-app-ofer-text">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+                    <div class="mobile-btn">
+                        <button class="mobile-app-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M26.7073 18.6307C26.6704 14.6324 30.065 12.6872 30.2203 12.5966C28.2977 9.86366 25.3178 9.49026 24.2707 9.46048C21.7679 9.20369 19.3403 10.9206 18.0654 10.9206C16.765 10.9206 14.8017 9.48529 12.6858 9.52747C9.96293 9.56841 7.41566 11.1055 6.0186 13.4923C3.13542 18.359 5.28572 25.5108 8.04802 29.4446C9.42981 31.3712 11.0444 33.5223 13.1578 33.4466C15.2254 33.3635 15.9978 32.1614 18.4929 32.1614C20.9651 32.1614 21.6903 33.4466 23.8457 33.3983C26.0647 33.3635 27.4618 31.463 28.7952 29.519C30.392 27.3108 31.0333 25.1362 31.0588 25.0245C31.0066 25.0071 26.7493 23.4229 26.7073 18.6307Z" fill="#403F3D"/>
+                                <path d="M22.6357 6.87268C23.7477 5.51675 24.5086 3.67205 24.2974 1.80005C22.6879 1.86952 20.675 2.88554 19.5159 4.21169C18.4903 5.38029 17.5742 7.29571 17.8109 9.097C19.6189 9.2285 21.4753 8.20752 22.6357 6.87268Z" fill="#403F3D"/>
+                            </svg>
+                            <span class="mobile-button-text">
+                                <span class="text1">Available on the</span>
+                                <span class="text2">App Store</span>
+                            </span>
+                        </button>
+                        <button class="mobile-app-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M3.7558 3.20297C3.39335 3.57289 3.18359 4.14884 3.18359 4.89471V31.4994C3.18359 32.2453 3.39335 32.8212 3.7558 33.1911L3.84525 33.2723L19.1359 18.37V18.0181L3.84525 3.11575L3.7558 3.20297Z" fill="#403F3D"/>
+                                <path d="M26.0776 23.34L20.9863 18.37V18.0181L26.0837 13.0482L26.1979 13.1128L32.2345 16.4617C33.9573 17.4121 33.9573 18.976 32.2345 19.9324L26.1979 23.2753L26.0776 23.34Z" fill="#403F3D"/>
+                                <path d="M25.2733 24.2007L20.0617 19.1195L4.68164 34.1166C5.25384 34.7031 6.18695 34.7737 7.24807 34.1873L25.2733 24.2007Z" fill="#403F3D"/>
+                                <path d="M25.2733 12.1876L7.24807 2.20103C6.18695 1.62058 5.25384 1.69125 4.68164 2.27772L20.0617 17.2688L25.2733 12.1876Z" fill="#403F3D"/>
+                            </svg>
+                            <span class="mobile-button-text">
+                                <span class="text1">Available on</span>
+                                <span class="text2">Google Play</span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <img src="./assets/img/home-mobile-app.png" alt="Coffee shop in mobile application" width="630" height="630">
+            </section>
+        </main>
+        <footer>
+            <div id="contact-us" class="container-contacts">
+                <div class="contacts-ofer">
+                    <h2>Sip, Savor, Smile. <em>It&rsquo;s coffee time!</em></h2>
+                    <div class="contacts-icons">
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FSpecCoffeeHouse" target="_blank" class="contacts-icon-twiter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/coffee.house_ua/" target="_blank" class="contacts-icon-instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="#E1D4C9"/>
+                                <path d="M17.5 6.51L17.51 6.49889" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/Coffee.House.VIN/?locale=ru_RU" target="_blank" class="contacts-icon-facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts-info">
+                    <p class="contacts-us">Contact us</p>
+                    <div class="contacts-info-text">
+                        <div class="contacts-map">
+                            <p class="contacts-text1">
+                                <a href="https://www.google.com/maps/place/La+Harpe,+%D0%86%D0%BB%D0%BB%D1%96%D0%BD%D0%BE%D0%B9%D1%81+61450,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@40.5822691,-90.9877838,15z/data=!3m1!4b1!4m15!1m8!3m7!1s0x87e0decf528dff6d:0x94ba3807aaf1189a!2zR3JlZW4gUmQsIExhIEhhcnBlIFRvd25zaGlwLCBJTCA2MTQ1MCwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!3b1!8m2!3d40.574772!4d-90.9730543!16s%2Fg%2F1tfx5fpn!3m5!1s0x87e0dedb0a4bdda7:0x5967ec7c84b2ed8c!8m2!3d40.5833749!4d-90.9693057!16zL20vMHM3d2M?entry=ttu" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M16.6663 8.33329C16.6663 12.0152 9.99967 18.3333 9.99967 18.3333C9.99967 18.3333 3.33301 12.0152 3.33301 8.33329C3.33301 4.65139 6.31778 1.66663 9.99967 1.66663C13.6816 1.66663 16.6663 4.65139 16.6663 8.33329Z" stroke="#E1D4C9" stroke-width="1.5"/>
+                                        <path d="M10.0003 9.16667C10.4606 9.16667 10.8337 8.79357 10.8337 8.33333C10.8337 7.8731 10.4606 7.5 10.0003 7.5C9.54009 7.5 9.16699 7.8731 9.16699 8.33333C9.16699 8.79357 9.54009 9.16667 10.0003 9.16667Z" fill="#E1D4C9" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    8558 Green Rd., &nbsp;LA
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contacts-tel">
+                            <p class="contacts-text2">
+                                <a href="tel:+16035550123">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M15.0984 12.2516L11.6665 12.9166C9.34845 11.7531 7.91654 10.4166 7.08321 8.33329L7.72483 4.89154L6.51197 1.66663L3.72946 1.66663C2.60191 1.66663 1.71466 2.59958 1.90108 3.71161C2.29888 6.08454 3.37231 10.0391 6.24987 12.9166C9.27338 15.9401 13.5661 17.3318 16.1378 17.9288C17.299 18.1983 18.3332 17.2908 18.3332 16.0988L18.3332 13.4843L15.0984 12.2516Z" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    +1 (603) 555-0123
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contacts-work-time">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <g clip-path="url(#clip0_217_1736)">
+                                <path d="M10 5L10 10L15 10" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.0003 18.3333C14.6027 18.3333 18.3337 14.6023 18.3337 9.99996C18.3337 5.39759 14.6027 1.66663 10.0003 1.66663C5.39795 1.66663 1.66699 5.39759 1.66699 9.99996C1.66699 14.6023 5.39795 18.3333 10.0003 18.3333Z" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_217_1736">
+                                    <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="contacts-text3">Mon-Sat: 9:00 AM &ndash; 23:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+<script src="./js/index.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/crosscheck-criteria.js"></script>
+</body>
+</html>

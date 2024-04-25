@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal-style.css">
+    <link rel="icon" type="image/x-ico" href="./assets/icon/favicon.ico">
+    <title>Menu</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header-menu">
+                <a href="../Coffee-House/">
+                    <img class="header-logo" src="./assets/img/logo.png" alt="Logo Coffee-House">
+                </a>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-link"><a href="../Coffee-House/#favorite-coffee">Favorite coffee</a></li>
+                        <li class="menu-link"><a href="../Coffee-House/#about">About</a></li>
+                        <li class="menu-link"><a href="../Coffee-House/#mobile-app">Mobile app</a></li>
+                        <li><a href="#contact-us">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-menu-item menu-item-fix">
+                    Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M14.167 9.76667V11.6667C14.167 14.8883 11.5553 17.5 8.33366 17.5C5.112 17.5 2.50033 14.8883 2.50033 11.6667V9.76667C2.50033 9.4353 2.76896 9.16667 3.10033 9.16667H13.567C13.8984 9.16667 14.167 9.4353 14.167 9.76667Z" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.0003 7.50008C10.0003 6.66675 10.5956 5.83341 11.786 5.83341V5.83341C13.101 5.83341 14.167 4.76743 14.167 3.45246V2.91675" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.66634 7.5V7.08333C6.66634 5.70262 7.78563 4.58333 9.16634 4.58333V4.58333C10.0868 4.58333 10.833 3.83714 10.833 2.91667V2.5" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.333 9.16675H15.4163C16.5669 9.16675 17.4997 10.0995 17.4997 11.2501C17.4997 12.4007 16.5669 13.3334 15.4163 13.3334H14.1663" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <button id="burger" class="burger-menu-btn-open">
+                    <span class="btn-line-top"></span>
+                    <span class="btn-line-bottom"></span>
+                </button>
+                <h1 class="h1-menu">Enjoy premium coffee at our charming cafe</h1>
+            </div>
+            <div class="burger-menu-list">
+                <nav>
+                    <ul class="burger-menu-link">
+                        <li><a href="../Coffee-House/#favorite-coffee">Favorite coffee</a></li>
+                        <li><a href="../Coffee-House/#about">About</a></li>
+                        <li><a href="../Coffee-House/#mobile-app">Mobile app</a></li>
+                        <li><a href="#contact-us">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-burger-menu-item fix-burger-menu-item">
+                    <a href="#" class="no-pointer">
+                        Menu
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                            <path d="M28.8333 18.9333V25C28.8333 30.5228 24.3561 35 18.8332 35H15.4999C9.97707 35 5.49992 30.5228 5.49992 25V18.9333C5.49992 18.602 5.76855 18.3333 6.09992 18.3333H28.2333C28.5646 18.3333 28.8333 18.602 28.8333 18.9333Z" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.4999 15C20.4999 13.3334 21.6904 11.6667 24.0713 11.6667C24.5919 11.6667 25.2136 11.6667 25.8333 11.6667C27.4901 11.6667 28.8333 10.3236 28.8333 8.66671V5.83337" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.8334 15V12.1667C13.8334 10.5098 15.1766 9.16667 16.8334 9.16667H20.1667C21.2713 9.16667 22.1667 8.27124 22.1667 7.16667V5" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M27.1667 18.3334H31.3334C33.6346 18.3334 35.5001 20.1989 35.5001 22.5C35.5001 24.8012 33.6346 26.6667 31.3334 26.6667H28.8334" stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-menu">
+                <h2>Behind each of our cups hides an <em>amazing surprise</em></h2>
+                <div class="tab-items">
+                    <button class="tab-item-coffee">
+                        <svg width="30" height="30" viewBox="0 0 30 30">
+                            <circle cx="15" cy="15" r="15" fill="#C1B6AD"/>
+                            <image x="6" y="3.5" width="17" height="24" href="./assets/icon/menu-iconCup.png" />
+                        </svg>
+                        Coffee
+                    </button>
+                    <button class="tab-item-tea">
+                        <svg width="30" height="30" viewBox="0 0 30 30">
+                            <circle cx="15" cy="15" r="15" fill="#C1B6AD"/>
+                            <image x="6" y="3.5" width="17" height="24" href="./assets/icon/menu-iconKettle.png" />
+                        </svg>
+                        Tea
+                    </button>
+                    <button class="tab-item-dessert">
+                        <svg width="30" height="30" viewBox="0 0 30 30">
+                            <circle cx="15" cy="15" r="15" fill="#C1B6AD"/>
+                            <image x="6" y="3.5" width="17" height="24" href="./assets/icon/menu-iconDessert.png" />
+                        </svg>
+                        Dessert
+                    </button>
+                </div>
+                <div class="assortment-coffee">
+                    <div class="coffee-list coffee-1 tea-1 dessert-1">
+                        <div class="container-img img-1">
+                            <img src="./assets/img/menu-coffee-1.jpg" alt="Irish coffee" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Irish coffee</p>
+                            <p class="coffee-text1 text-2">Fragrant black coffee with Jameson Irish whiskey and whipped milk</p>
+                            <p class="coffee-text text-3">$7.00</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-2 tea-2 dessert-2">
+                        <div class="container-img img-2">
+                            <img src="./assets/img/menu-coffee-2.jpg" alt="Kahlua coffee" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Kahlua coffee</p>
+                            <p class="coffee-text1 text-2">Classic coffee with milk and Kahlua liqueur under a cap of frothed milk</p>
+                            <p class="coffee-text text-3">$7.00</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-3 tea-3 dessert-3">
+                        <div class="container-img img-3">
+                            <img src="./assets/img/menu-coffee-3.jpg" alt="Honey raf" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Honey raf</p>
+                            <p class="coffee-text1 text-2">Espresso with frothed milk, cream and aromatic honey</p>
+                            <p class="coffee-text text-3">$5.50</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-4 tea-4 dessert-4">
+                        <div class="container-img img-4">
+                            <img src="./assets/img/menu-coffee-4.jpg" alt="Ice cappuccino" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Ice cappuccino</p>
+                            <p class="coffee-text1 text-2">Cappuccino with soft thick foam in summer version with ice</p>
+                            <p class="coffee-text text-3">$5.00</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-5 dessert-5">
+                        <div class="container-img img-5">
+                            <img src="./assets/img/menu-coffee-5.jpg" alt="Espresso" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Espresso</p>
+                            <p class="coffee-text1 text-2">Classic black coffee</p>
+                            <p class="coffee-text text-3">$4.50</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-6 dessert-6">
+                        <div class="container-img img-6">
+                            <img src="./assets/img/menu-coffee-6.jpg" alt="Latte" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Latte</p>
+                            <p class="coffee-text1 text-2">Espresso coffee with the addition of steamed milk and dense milk foam</p>
+                            <p class="coffee-text text-3">$5.50</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-7 dessert-7">
+                        <div class="container-img img-7">
+                            <img src="./assets/img/menu-coffee-7.jpg" alt="Latte macchiato" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Latte macchiato</p>
+                            <p class="coffee-text1 text-2">Espresso with frothed milk and chocolate</p>
+                            <p class="coffee-text text-3">$5.50</p>
+                        </div>
+                    </div>
+                    <div class="coffee-list coffee-8 dessert-8">
+                        <div class="container-img img-8">
+                            <img src="./assets/img/menu-coffee-8.jpg" alt="Coffee with cognac" width="340" height="340">
+                        </div>
+                        <div class="assortment-coffee-text">
+                            <p class="coffee-text text-1">Coffee with cognac</p>
+                            <p class="coffee-text1 text-2">Fragrant black coffee with cognac and whipped cream</p>
+                            <p class="coffee-text text-3">$6.50</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="update-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M21.8883 13.5C21.1645 18.3113 17.013 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C16.1006 2 19.6248 4.46819 21.1679 8" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </main>
+        <footer>
+            <div id="contact-us" class="container-contacts">
+                <div class="contacts-ofer">
+                    <h2>Sip, Savor, Smile. <em>It&rsquo;s coffee time!</em></h2>
+                    <div class="contacts-icons">
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FSpecCoffeeHouse" target="_blank" class="contacts-icon-twiter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/coffee.house_ua/" target="_blank" class="contacts-icon-instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="#E1D4C9"/>
+                                <path d="M17.5 6.51L17.51 6.49889" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/Coffee.House.VIN/?locale=ru_RU" target="_blank" class="contacts-icon-facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts-info">
+                    <p class="contacts-us">Contact us</p>
+                    <div class="contacts-info-text">
+                        <div class="contacts-map">
+                            <p class="contacts-text1">
+                                <a href="https://www.google.com/maps/place/La+Harpe,+%D0%86%D0%BB%D0%BB%D1%96%D0%BD%D0%BE%D0%B9%D1%81+61450,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@40.5822691,-90.9877838,15z/data=!3m1!4b1!4m15!1m8!3m7!1s0x87e0decf528dff6d:0x94ba3807aaf1189a!2zR3JlZW4gUmQsIExhIEhhcnBlIFRvd25zaGlwLCBJTCA2MTQ1MCwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!3b1!8m2!3d40.574772!4d-90.9730543!16s%2Fg%2F1tfx5fpn!3m5!1s0x87e0dedb0a4bdda7:0x5967ec7c84b2ed8c!8m2!3d40.5833749!4d-90.9693057!16zL20vMHM3d2M?entry=ttu" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M16.6663 8.33329C16.6663 12.0152 9.99967 18.3333 9.99967 18.3333C9.99967 18.3333 3.33301 12.0152 3.33301 8.33329C3.33301 4.65139 6.31778 1.66663 9.99967 1.66663C13.6816 1.66663 16.6663 4.65139 16.6663 8.33329Z" stroke="#E1D4C9" stroke-width="1.5"/>
+                                        <path d="M10.0003 9.16667C10.4606 9.16667 10.8337 8.79357 10.8337 8.33333C10.8337 7.8731 10.4606 7.5 10.0003 7.5C9.54009 7.5 9.16699 7.8731 9.16699 8.33333C9.16699 8.79357 9.54009 9.16667 10.0003 9.16667Z" fill="#E1D4C9" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    8558 Green Rd., &nbsp;LA
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contacts-tel">
+                            <p class="contacts-text2">
+                                <a href="tel:+16035550123">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M15.0984 12.2516L11.6665 12.9166C9.34845 11.7531 7.91654 10.4166 7.08321 8.33329L7.72483 4.89154L6.51197 1.66663L3.72946 1.66663C2.60191 1.66663 1.71466 2.59958 1.90108 3.71161C2.29888 6.08454 3.37231 10.0391 6.24987 12.9166C9.27338 15.9401 13.5661 17.3318 16.1378 17.9288C17.299 18.1983 18.3332 17.2908 18.3332 16.0988L18.3332 13.4843L15.0984 12.2516Z" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    +1 (603) 555-0123
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contacts-work-time">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <g clip-path="url(#clip0_217_1736)">
+                                <path d="M10 5L10 10L15 10" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.0003 18.3333C14.6027 18.3333 18.3337 14.6023 18.3337 9.99996C18.3337 5.39759 14.6027 1.66663 10.0003 1.66663C5.39795 1.66663 1.66699 5.39759 1.66699 9.99996C1.66699 14.6023 5.39795 18.3333 10.0003 18.3333Z" stroke="#E1D4C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_217_1736">
+                                    <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="contacts-text3">Mon-Sat: 9:00 AM &ndash; 23:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="back-color-modal">
+        <div class="modal-assortment-product ">
+            <div class="preview-assortment-product">
+                <div class="container-assortment-img">
+                    <img src="./assets/img/menu-coffee-1.jpg" alt="Irish coffee" width="340" height="340">
+                </div>
+                <div class="description-product">
+                    <div class="assortment-product-text">
+                        <p class="product-text">Irish coffee</p>
+                        <p class="product-text1">Fragrant black coffee with Jameson Irish whiskey and whipped milk</p>
+                    </div>
+                    <div class="size-product">
+                        <p class="product-text1">Size</p>
+                        <div class="item-size-additives">
+                            <button class="size-additives-btn btn-size-text-1 active size-s">
+                                <span class="size-additives-text size-text-1 btn-text-modal-1">S</span>
+                                200 ml
+                            </button>
+                            <button class="size-additives-btn btn-size-text-2 size-m">
+                                <span class="size-additives-text size-text-2 btn-text-modal-2">M</span>
+                                300 ml
+                            </button>
+                            <button class="size-additives-btn btn-size-text-3 size-l">
+                                <span class="size-additives-text size-text-3 btn-text-modal-3">L</span>
+                                400 ml
+                            </button>
+                        </div>
+                    </div>
+                    <div class="additives-product">
+                        <p class="product-text1">Additives</p>
+                        <div class="item-size-additives">
+                            <button class="size-additives-btn btn-additives-text-1 additives-1">
+                                <span class="size-additives-text additives-text-1 btn-text-modal-1">1</span>
+                                Sugar
+                            </button>
+                            <button class="size-additives-btn btn-additives-text-2 additives-2">
+                                <span class="size-additives-text additives-text-2 btn-text-modal-2">2</span>
+                                Cinnamon
+                            </button>
+                            <button class="size-additives-btn btn-additives-text-3 additives-3">
+                                <span class="size-additives-text additives-text-3 btn-text-modal-3">3</span>
+                                Syrup
+                            </button>
+                        </div>
+                    </div>
+                    <div class="total-product">
+                        <p class="product-text">Total</p>
+                        <p class="product-text price-text">$7.00</p>
+                    </div>
+                    <div class="alert-product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <g clip-path="url(#clip0_268_9737)">
+                            <path d="M8 7.66663V11" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 5.00667L8.00667 4.99926" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.00016 14.6667C11.6821 14.6667 14.6668 11.6819 14.6668 8.00004C14.6668 4.31814 11.6821 1.33337 8.00016 1.33337C4.31826 1.33337 1.3335 4.31814 1.3335 8.00004C1.3335 11.6819 4.31826 14.6667 8.00016 14.6667Z" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_268_9737">
+                                <rect width="16" height="16" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="product-text2">The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</p>
+                    </div>
+                    <button class="close-pruduct-btn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-color-modal-tea">
+        <div class="modal-assortment-product-tea">
+            <div class="preview-assortment-product-tea">
+                <div class="container-assortment-img-tea">
+                    <img src="./assets/img/menu-coffee-1.jpg" alt="Irish coffee" width="340" height="340">
+                </div>
+                <div class="description-product-tea">
+                    <div class="assortment-product-text-tea">
+                        <p class="product-text-tea">Moroccan</p>
+                        <p class="product-text1-tea">Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint</p>
+                    </div>
+                    <div class="size-product-tea">
+                        <p class="product-text1-tea">Size</p>
+                        <div class="item-size-additives-tea">
+                            <button class="size-additives-btn-tea btn-size-text-1 active size-s-tea">
+                                <span class="size-additives-text-tea size-text-1-tea btn-text-modal-1">S</span>
+                                200 ml
+                            </button>
+                            <button class="size-additives-btn-tea btn-size-text-2 size-m-tea">
+                                <span class="size-additives-text-tea size-text-2-tea btn-text-modal-2">M</span>
+                                300 ml
+                            </button>
+                            <button class="size-additives-btn-tea btn-size-text-3 size-l-tea">
+                                <span class="size-additives-text-tea size-text-3-tea btn-text-modal-3">L</span>
+                                400 ml
+                            </button>
+                        </div>
+                    </div>
+                    <div class="additives-product-tea">
+                        <p class="product-text1-tea">Additives</p>
+                        <div class="item-size-additives">
+                            <button class="size-additives-btn btn-additives-text-1 additives-1-tea">
+                                <span class="size-additives-text additives-text-1-tea btn-text-modal-1">1</span>
+                                Sugar
+                            </button>
+                            <button class="size-additives-btn btn-additives-text-2 additives-2-tea">
+                                <span class="size-additives-text additives-text-2-tea btn-text-modal-2">2</span>
+                                Lemon
+                            </button>
+                            <button class="size-additives-btn btn-additives-text-3 additives-3-tea">
+                                <span class="size-additives-text additives-text-3-tea btn-text-modal-3">3</span>
+                                Syrup
+                            </button>
+                        </div>
+                    </div>
+                    <div class="total-product-tea">
+                        <p class="product-text-tea">Total</p>
+                        <p class="product-text-tea price-text-tea">$4.50</p>
+                    </div>
+                    <div class="alert-product-tea">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <g clip-path="url(#clip0_268_10145)">
+                              <path d="M8 7.66663V11" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8 5.00667L8.00667 4.99926" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8.00016 14.6667C11.6821 14.6667 14.6668 11.6819 14.6668 8.00004C14.6668 4.31814 11.6821 1.33337 8.00016 1.33337C4.31826 1.33337 1.3335 4.31814 1.3335 8.00004C1.3335 11.6819 4.31826 14.6667 8.00016 14.6667Z" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_268_10145">
+                                <rect width="16" height="16" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="product-text2-tea">The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</p>
+                    </div>
+                    <button class="close-pruduct-btn-tea">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-color-modal-dessert">
+        <div class="modal-assortment-product-dessert">
+            <div class="preview-assortment-product-dessert">
+                <div class="container-assortment-img-dessert">
+                    <img src="./assets/img/menu-coffee-1.jpg" alt="Irish coffee" width="340" height="340">
+                </div>
+                <div class="description-product-dessert">
+                    <div class="assortment-product-text-dessert">
+                        <p class="product-text-dessert">Marble cheesecake</p>
+                        <p class="product-text1-dessert">Philadelphia cheese with lemon zest on a light sponge cake and red currant jam</p>
+                    </div>
+                    <div class="size-product-dessert">
+                        <p class="product-text1-dessert">Size</p>
+                        <div class="item-size-additives-dessert">
+                            <button class="size-additives-btn-dessert btn-size-text-1 active size-s-dessert">
+                                <span class="size-additives-text-dessert size-text-1-dessert btn-text-modal-1">S</span>
+                                50 g
+                            </button>
+                            <button class="size-additives-btn-dessert btn-size-text-2 size-m-dessert">
+                                <span class="size-additives-text-dessert size-text-2-dessert btn-text-modal-2">M</span>
+                                100 g
+                            </button>
+                            <button class="size-additives-btn-dessert btn-size-text-3 size-l-dessert">
+                                <span class="size-additives-text-dessert size-text-3-dessert btn-text-modal-3">L</span>
+                                200 g
+                            </button>
+                        </div>
+                    </div>
+                    <div class="additives-product-dessert">
+                        <p class="product-text1-dessert">Additives</p>
+                        <div class="item-size-additives">
+                            <button class="size-additives-btn btn-additives-text-1 additives-1-dessert">
+                                <span class="size-additives-text additives-text-1-dessert btn-text-modal-1">1</span>
+                                Berries
+                            </button>
+                            <button class="size-additives-btn btn-additives-text-2 additives-2-dessert">
+                                <span class="size-additives-text additives-text-2-dessert btn-text-modal-2">2</span>
+                                Nuts
+                            </button>
+                            <button class="size-additives-btn btn-additives-text-3 additives-3-dessert">
+                                <span class="size-additives-text additives-text-3-dessert btn-text-modal-3">3</span>
+                                Jam
+                            </button>
+                        </div>
+                    </div>
+                    <div class="total-product-dessert">
+                        <p class="product-text-dessert">Total</p>
+                        <p class="product-text-dessert price-text-dessert">$3.50</p>
+                    </div>
+                    <div class="alert-product-dessert">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <g clip-path="url(#clip0_268_10077)">
+                              <path d="M8 7.66663V11" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8 5.00667L8.00667 4.99926" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8.00016 14.6667C11.6821 14.6667 14.6668 11.6819 14.6668 8.00004C14.6668 4.31814 11.6821 1.33337 8.00016 1.33337C4.31826 1.33337 1.3335 4.31814 1.3335 8.00004C1.3335 11.6819 4.31826 14.6667 8.00016 14.6667Z" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_268_10077">
+                                <rect width="16" height="16" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="product-text2-dessert">The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</p>
+                    </div>
+                    <button class="close-pruduct-btn-dessert">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/index.js"></script>
+<script src="./js/modal.js"></script>
+<script src="./js/crosscheck-criteria.js"></script>
+</body>
+</html>
