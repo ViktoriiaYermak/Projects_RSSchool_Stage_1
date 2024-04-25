@@ -1,0 +1,27 @@
+.position__name-list:hover {
+  color: var(--text-color-hover);
+}
+
+.btn-main:hover {
+  background-color: var(--background-color-hover);
+}
+
+.modal-btn:hover,
+.score-modal-btn:hover,
+.settings-modal-btn:hover {
+  background-color: var(--background-btn-color-hover);
+}
+
+.btn:hover {
+  background-color: var(--background-color-hover);
+}
+
+.level-set__item-name:hover {
+  color: var(--text-two-color-hover);
+}
+
+.level-easy-set__item-name:hover,
+.level-medium-set__item-name:hover,
+.level-hard-set__item-name:hover {
+  color: var(--text-color-hover);
+}
